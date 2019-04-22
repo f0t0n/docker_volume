@@ -12,6 +12,3 @@ RUN set -ex \
 
 
 CMD ["python", "-m", "app"]
-
-# docker build . -t volume_app:latest
-# docker run --rm --name=volume_app -v "$PWD":/app volume_app:latest
